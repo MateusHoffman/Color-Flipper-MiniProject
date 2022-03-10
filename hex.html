@@ -1,0 +1,43 @@
+<!-- indica ao navegador em qual versão do HTML a página está escrita -->
+<!DOCTYPE html>
+<!-- identifica em qual lingua o código está sendo escrito -->
+<html lang="en">
+  <head>
+		<!-- indica ao navegador qual é o formato de codificação de caracteres utilizado naquele documento. -->
+    <meta charset="UTF-8" />
+		<!-- fornece ao navegador instruções sobre como controlar as dimensões e o dimensionamento da página  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- nome que fica aparecente na aba do navegador -->
+    <title>Color Flipper</title>
+    <!-- chamada do arquivo styles.css -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+		<!-- nav é uma seção de links de navegação -->
+    <nav>
+			<!-- bloco chamado de nav-venter -->
+      <div class="nav-center">
+				<!-- titulo/logo da página -->
+        <h4>color flipper</h4>
+				<!-- representa uma lista de itens -->
+        <ul class="nav-links">
+					<!--  é usado para representar um item que faz parte de uma lista -->
+          <li><a href="index.html">simple</a></li>
+          <li><a href="hex.html">hex</a></li>
+        </ul>
+      </div>
+    </nav>
+		<!-- define o conteúdo principal dentro do <body> -->
+    <main>
+			<!-- bloco chamado de container -->
+      <div class="container">
+				<!--  -->
+        <h2>background color : <span class="color">#f1f5f8</span></h2>
+        <button class="btn btn-hero" id="btn">click me</button>
+      </div>
+    </main>
+    <!-- javascript -->
+    <script src="hex.js"></script>
+  </body>
+</html>
